@@ -1,0 +1,39 @@
+img{
+  height: 45vh;
+  width: auto;
+  animation: bounce 2s;
+}
+
+.text{
+  width: 80%;
+  font-family: 'Black Ops One';
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+h1{
+  font-size: 5vh;
+}
+
+p{
+  font-size: 2vh;
+  margin-bottom: 4vh;
+}
+
+.flat-button{
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #439A86;
+  text-decoration: none;
+  padding: 15px 30px;
+  border: 1px solid #439A86;
+}
+
+.flat-button:hover{
+  background-color: #439A86;
+  color: #222E50;
+}
