@@ -1,0 +1,39 @@
+.search-title{
+  font-family: 'Black Ops One';
+  position: absolute;
+  font-size: 7vw;
+  top: 15%;
+  left: 35vw;
+}
+
+.search{
+  display: inline;
+  position: absolute;
+  left: 15vw;
+  top: 48%;
+  width: 90%;
+}
+
+.search-bar{
+  font-family: 'Black Ops One';
+  width: 60%;
+  height: 25px;
+  border-radius: 15px;
+}
+
+.go-button{
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+  background-color: #439A86;
+  color: #222E50;
+  font-family: 'Black Ops One';
+  text-decoration: none;
+  margin-left: 2.5%;
+  padding: 6px 30px;
+  border-radius: 15px;
+}
+
+.go-button:hover{
+  background-color: #006C67;
+}

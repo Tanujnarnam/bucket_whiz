@@ -1,4 +1,4 @@
-import './teams.css'
+import './teams.css';
 
 
 const Teams = () => {
