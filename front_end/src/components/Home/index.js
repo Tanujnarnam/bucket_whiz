@@ -5,7 +5,7 @@ import silhouette from '../../assets/images/basketball_silhouette.png';
 const Home = () => {
   return(
     <>
-     <div class="text">
+     <div className="text">
       <img src={silhouette} alt="Sil"/>
       <h1>Welcome to Bucket Whiz!</h1>
       <p>Your Ultimate NBA Player Stats Hub!</p>

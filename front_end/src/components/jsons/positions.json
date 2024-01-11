@@ -1,0 +1,29 @@
+{
+  "positions": [
+    {
+      "position": "PG",
+      "full_name": "Point Guard",
+      "cover": "./positions/PG.jpg"
+    },
+    {
+      "position": "SG",
+      "full_name": "Shooting Guard",
+      "cover": "./positions/SG.jpg"
+    },
+    {
+      "position": "SF",
+      "full_name": "Small Forward",
+      "cover": "./positions/SF.jpg"
+    },
+    {
+      "position": "PF",
+      "full_name": "Power Forward",
+      "cover": "./positions/PF.jpg"
+    },
+    {
+      "position": "C",
+      "full_name": "Center",
+      "cover": "./positions/C.jpg"
+    }
+  ]
+}

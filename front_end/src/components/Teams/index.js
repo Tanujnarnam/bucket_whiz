@@ -1,9 +1,10 @@
 import './teams.css';
+import Table from '../Table';
 
 
 const Teams = () => {
   return(
-    <h1>Hello</h1>
+    <></>
   )
 };
 
