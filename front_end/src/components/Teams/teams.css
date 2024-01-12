@@ -1,0 +1,81 @@
+.team-title{
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  font-size: 6.5vh;
+  font-family: 'Black Ops One';
+}
+
+.teams-div{
+  position: absolute;
+  top: 25%;
+  width: 95%;
+  margin-left: 2.5%;
+  padding-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.square-div{
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.team-images{
+  position: relative;
+  margin-top: 0;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 15px;
+}
+
+.team-text{
+  margin: 0;
+  font-size: 2vw;
+  position: relative;
+  top: 89%;
+  left: 10px;
+}
+
+.team-btn{
+  text-align: center;
+  font-size: 1vw;
+  background-color: #439A86;
+  color: #222E50;
+  font-family: 'Black Ops One';
+  text-decoration: none;
+  margin-left: 2.5%;
+  padding: 1vw 1.8vw;
+  border-radius: 2vw;
+}
+
+.team-btn:hover{
+  cursor: pointer;
+}
+
+.overlay{
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  transition: .4s ease;
+}
+
+.square-div:hover .overlay{
+  height: 100%;
+}
+
+@media screen and (max-width: 800px){
+  .teams-div{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
