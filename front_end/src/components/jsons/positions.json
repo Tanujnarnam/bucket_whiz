@@ -3,27 +3,27 @@
     {
       "position": "PG",
       "full_name": "Point Guard",
-      "cover": "./positions/PG.jpg"
+      "cover": "../positions/PG.png"
     },
     {
       "position": "SG",
       "full_name": "Shooting Guard",
-      "cover": "./positions/SG.jpg"
+      "cover": "../positions/SG.png"
     },
     {
       "position": "SF",
       "full_name": "Small Forward",
-      "cover": "./positions/SF.jpg"
+      "cover": "../positions/SF.webp"
     },
     {
       "position": "PF",
       "full_name": "Power Forward",
-      "cover": "./positions/PF.jpg"
+      "cover": "../positions/PF.jpg"
     },
     {
       "position": "C",
       "full_name": "Center",
-      "cover": "./positions/C.jpg"
+      "cover": "../positions/C.png"
     }
   ]
 }

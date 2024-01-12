@@ -6,7 +6,7 @@ const Home = () => {
   return(
     <>
      <div className="text">
-      <img src={silhouette} alt="Sil"/>
+      <img className="silhouette" src={silhouette} alt="Sil"/>
       <h1>Welcome to Bucket Whiz!</h1>
       <p>Your Ultimate NBA Player Stats Hub!</p>
       <Link to="/teams" className='flat-button'>Get Started</Link>
