@@ -1,0 +1,124 @@
+{
+  "teams": [
+    {
+      "team": "Atlanta Hawks",
+      "short": "ATL"
+    },
+    {
+      "team": "Brooklyn Nets",
+      "short": "BKN"
+    },
+    {
+      "team": "Boston Celtics",
+      "short": "BOS"
+    },
+    {
+      "team": "Charlotte Hornets",
+      "short": "CHA"
+    },
+    {
+      "team": "Chicago Bulls",
+      "short": "CHI"
+    },
+    {
+      "team": "Cleveland Cavaliers",
+      "short": "CLE"
+    },
+    {
+      "team": "Dallas Mavericks",
+      "short": "DAL"
+    },
+    {
+      "team": "Denver Nuggets",
+      "short": "DEN"
+    },
+    {
+      "team": "Detriot Pistons",
+      "short": "DET"
+    },
+    {
+      "team": "Golden State Warriors",
+      "short": "GS"
+    },
+    {
+      "team": "Houston Rockets",
+      "short": "HOU"
+    },
+    {
+      "team": "Indiana Pacers",
+      "short": "IND"
+    },
+    {
+      "team": "Los Angeles Clippers",
+      "short": "LAC"
+    },
+    {
+      "team": "Los Angeles Lakers",
+      "short": "LAL"
+    },
+    {
+      "team": "Memphis Grizzles",
+      "short": "MEM"
+    },
+    {
+      "team": "Miami Heat",
+      "short": "MIA"
+    },
+    {
+      "team": "Milwaukee Bucks",
+      "short": "MIL"
+    },
+    {
+      "team": "Minnesota Timberwolves",
+      "short": "MIN"
+    },
+    {
+      "team": "New Orleans Pelicans",
+      "short": "NOP"
+    },
+    {
+      "team": "New York Knicks",
+      "short": "NYK"
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "short": "OKC"
+    },
+    {
+      "team": "Orlando Magic",
+      "short": "ORL"
+    },
+    {
+      "team": "Philadelphia 76ers",
+      "short": "PHI"
+    },
+    {
+      "team": "Phoenix Suns",
+      "short": "PHO"
+    },
+    {
+      "team": "Portland Trailblazers",
+      "short": "POR"
+    },
+    {
+      "team": "Sacremento Kings",
+      "short": "SAC"
+    },
+    {
+      "team": "San Antonio Spurs",
+      "short": "SAS"
+    },
+    {
+      "team": "Toronto Raptors",
+      "short": "TOR"
+    },
+    {
+      "team": "Utah Jazz",
+      "short": "UTA"
+    },
+    {
+      "team": "Washington Wizards",
+      "short": "WAS"
+    }
+  ]
+}
