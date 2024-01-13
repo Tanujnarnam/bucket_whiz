@@ -1,9 +1,47 @@
-.table{
+table{
   position: absolute;
-  top: 40%;
+  top: 15%;
+  left: 5%;
+  width: 90%;
+  border-collapse: collapse;
+  font-size: 13px;
 }
+
+th{
+  font-weight: 600;
+}
+
+tr{
+  text-align: left;
+  border: 1px solid;
+}
+
+th, td{
+  padding: 8px;
+}
+
+table th{
+  background-color: #007991;
+}
+
+table tr:nth-child(even){
+  background-color: #303C5E;
+}
+
+table tr:nth-child(even):hover{
+  background-color: #222E50;
+}
+
+table tr:nth-child(odd):hover{
+  background-color: #2A3248;
+}
+
+
 
 .optional-text{
   position: absolute;
-  top: 40%;
+  left: 10%;
+  top: 10%;
+  font-size: 6.5vh;
+  font-family: 'Black Ops One';
 }
