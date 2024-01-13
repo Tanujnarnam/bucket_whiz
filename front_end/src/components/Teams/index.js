@@ -6,14 +6,24 @@ import teamData from '../jsons/teams.json'
 
 const Teams = () => {
   const [teams, setTeams] = useState([]);
+  const [searchQuery, setQuery] = useState('');
+
+  const handleSearchChange = (event) => {
+    setQuery(event.target.value)
+  }
 
   useEffect(() => {
-    setTeams(teamData.teams)
-  }, []
+    setTeams((teamData.teams).filter((el) => {
+      return el.team.toLowerCase().startsWith(searchQuery.toLowerCase());
+    }));
+  }, [searchQuery]
   )
 
   return(
     <>
+      <div className='team-search'>
+        <input type="text" placeholder='Search for teams' value={searchQuery} onChange={handleSearchChange} className="search-bar"/>
+      </div>
       <h1 className='team-title'>Teams</h1>
       <div className="teams-div">
         {

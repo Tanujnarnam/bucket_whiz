@@ -6,16 +6,26 @@
   font-family: 'Black Ops One';
 }
 
+.team-search{
+  position: absolute;
+  left: 10%;
+  top: 23%;
+  font-family: 'Black Ops One';
+  width: 80%;
+  height: 28px;
+  border-radius: 3vh;
+}
+
 .teams-div{
   position: absolute;
-  top: 25%;
+  top: 30%;
   width: 95%;
   margin-left: 2.5%;
   padding-bottom: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
 }
 
 .square-div{
