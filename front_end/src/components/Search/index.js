@@ -10,16 +10,12 @@ const Search = () => {
     setSearchValue(event.target.value)
   }
 
-  const handleClick = () => {
-    window.location.href = `/data?search=${encodeURIComponent(searchValue)}`;
-  }
-
   return(
     <>
     <h1 className='search-title'>Search</h1>
     <div className='search'>
       <input type="text" placeholder='Search for players' value={searchValue} onChange={handleSearchChange} className="search-bar"/>
-      <Link onClick={handleClick} className='go-button'>Go</Link>
+      <Link to={`/data?search=${encodeURIComponent(searchValue)}`} className='go-button'>Go</Link>
     </div>
     </>
   )
