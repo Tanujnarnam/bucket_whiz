@@ -10,12 +10,12 @@ const Layout = () => {
       <div className='nav-bar'>
         <h1 className='logo'>Bucket Whiz</h1>
         <nav>
-          <div className='list'>
+          <div className= "list">
               <NavLink exact="true" activeclassname="active" to="/">
                 <FontAwesomeIcon id="home-icon" icon={faHome} color="#bcd8c1"/>
               </NavLink>
               <NavLink exact="true" activeclassname="active" className="team-link" to="/teams">
-                <FontAwesomeIcon icon={faUsers} color="#bcd8c1"/>
+                <FontAwesomeIcon icon={faUsers} color="#bcd8c1" />
               </NavLink>
               <NavLink exact="true" activeclassname="active" className="position-link" to="/positions">
                 <FontAwesomeIcon icon={faBasketballBall} color="#bcd8c1"/>

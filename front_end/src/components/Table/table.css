@@ -28,11 +28,7 @@ table tr:nth-child(even){
   background-color: #303C5E;
 }
 
-table tr:nth-child(even):hover{
-  background-color: #222E50;
-}
-
-table tr:nth-child(odd):hover{
+table tr:hover{
   background-color: #2A3248;
 }
 
