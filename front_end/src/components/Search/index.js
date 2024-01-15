@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import {Link} from 'react-router-dom'
 import './search.css'
 
 
@@ -18,7 +19,7 @@ const Search = () => {
     <h1 className='search-title'>Search</h1>
     <div className='search'>
       <input type="text" placeholder='Search for players' value={searchValue} onChange={handleSearchChange} className="search-bar"/>
-      <button onClick={handleClick} className='go-button'>Go</button>
+      <Link onClick={handleClick} className='go-button'>Go</Link>
     </div>
     </>
   )
